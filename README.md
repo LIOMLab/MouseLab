@@ -15,7 +15,7 @@ registration and segmentation of brain data.
 ## Usage
 
 Replace the </local/directory> below with the path to the directory where you store data which you want to use within
-docker. These files will be availbe in the /root/ or ~ directory within the docker image.
+docker. These files will be available in the /root/ or ~ directory within the docker image.
 
 ```docker pull liomlab/pythonlab:latest```
 
@@ -24,4 +24,4 @@ docker. These files will be availbe in the /root/ or ~ directory within the dock
 ## Compatibility
 
 Images are build for Linux/AMD64 and Linux/ARM64. This allows the image to perform well on most systems with compatible
-architectures. CUDA is not supported on MacOs, even with the ARM64 build.
+architectures. CUDA is not supported on macOS, even with the ARM64 build.
