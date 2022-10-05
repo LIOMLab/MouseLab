@@ -29,7 +29,8 @@ RUN pip install --upgrade pip
 ##########
 
 # Install required python packages for ANTsPy, and antspy itself
-RUN pip install requests, chart_studio
+RUN pip install requests
+RUN pip install chart_studio
 RUN pip install antspyx
 
 ###########
