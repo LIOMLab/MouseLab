@@ -23,5 +23,4 @@ docker. These files will be available in the /root/ or ~ directory within the do
 
 ## Compatibility
 
-Images are build for Linux/AMD64 and Linux/ARM64. This allows the image to perform well on most systems with compatible
-architectures. CUDA is not supported on macOS, even with the ARM64 build.
+Images are build for Linux/AMD64.
