@@ -31,4 +31,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: liomlab/pythonlab:latest
+          tags: liomlab/mouselab:latest
