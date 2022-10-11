@@ -1,7 +1,7 @@
 # LIOM Registration and Segmentation Enviornment
 
 This repository holds the Dockerfile responsible for building the docker image which holds the tools for the
-registration and segmentation of brain data.
+registration and segmentation of mouse brain data.
 
 ## Included libraries
 
@@ -17,9 +17,9 @@ registration and segmentation of brain data.
 Replace the </local/directory> below with the path to the directory where you store data which you want to use within
 docker. These files will be available in the /root/ or ~ directory within the docker image.
 
-```docker pull liomlab/pythonlab:latest```
+```docker pull liomlab/mouselab:latest```
 
-```docker run --name pythonlab -v </local/directory>:/root/ liomlab/pythonlab```
+```docker run --name mouselab -v </local/directory>:/root/ liomlab/mouselab```
 
 ## Compatibility
 
